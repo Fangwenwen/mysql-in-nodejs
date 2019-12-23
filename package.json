@@ -1,0 +1,28 @@
+{
+  "name": "mysql-in-nodejs",
+  "version": "1.0.0",
+  "description": "mysql在nodejs中的应用",
+  "private": true,
+  "scripts": {
+    "start": "babel-node ./src/app.js"
+  },
+  "author": "fyw",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/preset-env": "^7.7.7"
+  }
+}

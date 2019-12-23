@@ -1,0 +1,12 @@
+{
+    "SERVER_CONFIG": {
+        "PORT": 9001
+    },
+    "MYSQL_CONFIG": {
+        "HOST": "localhost",
+        "USER": "root",
+        "password": "root",
+        "DATABASE": "my_test",
+        "CONNECTION_LIMIT": 10
+    }
+}
